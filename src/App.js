@@ -3,7 +3,7 @@ import {Profile} from "./Profile/profile";
 import './style.css';
 
 function App() {
-  const HandleName = () => alert('The profile user is Rana Meftah')
+  const HandleName = () => alert('The profile user is Rana Meftah' || 'the profile user is unknown')
   return (
     <div className="profile">
       <Profile FullName={'Rana Meftah'} 
